@@ -1,0 +1,198 @@
+.navbar {
+  border-bottom: 1px solid #484c89;
+}
+
+footer {
+  background-color: #484c89;
+  color: white;
+  height: 100px;
+  padding-top: 30px;
+}
+footer p {
+  display: inline;
+  padding-top: 100px;
+  margin: 0px 50px;
+  font-size: 25px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: white;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+.text_box {
+  background-color: #484c89;
+  color: white;
+  padding: 50px 40px 50px 40px;
+  margin-top: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.left_content {
+  padding-top: 50px;
+}
+.left_content .avatar {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.homepage-image {
+  position: relative;
+}
+.homepage-image .img {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.homepage-image .image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.homepage-image .image-overlay > * {
+  transform: translate(50px);
+  transition: transform 0.25s;
+}
+.homepage-image .image-overlay:hover > * {
+  transform: translate(0);
+}
+.homepage-image .image-overlay:hover {
+  opacity: 1;
+}
+.homepage-image .image-overlay .image-title {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.navbar a {
+  font-size: 20px;
+  margin-right: 100px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.images {
+  padding-top: 56px;
+}
+.images .project-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 95% !important;
+  margin: auto;
+  gap: 1em;
+}
+.images .project-page .projet-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text_box2 {
+  background-color: #484c89;
+  color: white;
+  padding: 50px 40px 50px 40px;
+  margin-top: 100px;
+  margin-right: 100px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.backend {
+  background-color: #484c89;
+  color: white;
+  margin: 30px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.backend img {
+  display: inline;
+  width: 50%;
+}
+.backend .back {
+  display: flex;
+  text-align: center;
+}
+
+.frontend {
+  background-color: #484c89;
+  color: white;
+  margin: 30px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.frontend .front {
+  display: flex;
+  text-align: center;
+}
+.frontend .front img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.frontend .front p {
+  display: inline;
+  margin: 28px;
+}
+
+.env {
+  background-color: #484c89;
+  color: white;
+  margin: 30px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.env img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.env .environment {
+  display: flex;
+}
+.env .environment .ubuntu, .env .environment .git, .env .environment .mac {
+  text-align: center;
+}
+
+.competences h1 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+@media screen and (max-width: 900px) {
+  * {
+    font-size: 12px;
+  }
+  .text_box, .text_box2 {
+    margin: 20px 20px;
+  }
+  footer p {
+    display: inline;
+    padding-top: 10px;
+    margin: 0px 15px;
+    font-size: 20px;
+  }
+  .competences .row {
+    margin-right: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */

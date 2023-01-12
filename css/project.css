@@ -1,0 +1,25 @@
+.images {
+  padding-top: 56px;
+}
+.images .project-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 95% !important;
+  margin: auto;
+  gap: 1em;
+}
+.images .project-page .projet-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text_box2 {
+  background-color: #484c89;
+  color: white;
+  padding: 50px 40px 50px 40px;
+  margin-top: 100px;
+  margin-right: 100px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=project.css.map */

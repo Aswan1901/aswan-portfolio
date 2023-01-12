@@ -1,0 +1,21 @@
+@import"./mixins";
+
+.images{
+    padding-top: 56px;
+
+  
+.project-page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 95% !important;
+    margin: auto;
+    gap: 1em;
+.projet-img{
+    width: 100%;
+    border-radius: 10px;
+        }
+    }
+}
+.text_box2{
+    @include textBox(15px);
+}

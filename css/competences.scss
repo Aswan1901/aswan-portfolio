@@ -1,0 +1,54 @@
+@import "./mixins";
+
+.backend {
+    @include skillBox();
+    img{
+        display: inline;
+        width: 50%;  
+  }
+    .back{
+    display: flex;
+    text-align: center;
+  }
+}  
+
+.frontend{
+    @include skillBox();
+
+    .front{
+    display: flex;
+    text-align: center;
+
+    img{
+    width: 50%;
+    margin-bottom: 10px;
+        }
+    p{
+    display: inline;
+    margin: 28px;
+
+        }
+    }
+}
+  
+.env{
+    
+    @include skillBox();
+    img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+  .environment{
+    display: flex;
+  
+  .ubuntu, .git, .mac{
+    text-align: center;
+  }
+}
+}
+
+.competences h1{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+  

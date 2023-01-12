@@ -1,0 +1,19 @@
+@import "./mixins";
+
+footer {
+    background-color: #484c89;
+    color: white;
+    height: 100px;
+    padding-top: 30px;
+        p{
+            display: inline;
+            padding-top: 100px;
+            margin: 0px 50px;
+            font-size: 25px;
+        }
+        a{
+            @include textDecoration;
+        }
+    
+}
+  

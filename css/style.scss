@@ -1,0 +1,40 @@
+@import "./header";
+@import"./footer";
+@import "./mixins";
+@import "./homepage";
+@import "./project";
+@import "./competences";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eeeeee;
+}
+
+
+@media screen and (max-width: 900px)
+{
+
+*{
+    font-size: 12px;
+}
+
+.text_box, .text_box2{
+  margin: 20px 20px;
+  
+}
+
+footer{
+  p{
+    display: inline;
+    padding-top: 10px;
+    margin: 0px 15px;
+    font-size: 20px;
+}
+}
+
+.competences .row{
+  margin-right: 50px;
+}
+
+}
+
